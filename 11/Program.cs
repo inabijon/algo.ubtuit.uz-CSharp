@@ -4,7 +4,7 @@ Console.Write("Please enter n: ");
 n = Convert.ToInt32(Console.ReadLine());
 
 if(n < 0) {
-    Console.WriteLine("Result is - " + 1);
+    return;
 }
 
 int sum = 0;
